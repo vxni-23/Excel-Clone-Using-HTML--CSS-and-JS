@@ -207,4 +207,9 @@ body{
     height: 2rem;
     width: 5rem;
     border: 1px solid #dfe4ea;
+    overflow-y: auto;
+}
+
+.cell::-webkit-scrollbar{
+    width: 0;
 }
